@@ -11,8 +11,14 @@
         android:layout_height="wrap_content"
         android:text="Selamat Datang"
         android:textSize="17sp"
-        android:layout_centerInParent="true"
+        android:layout_centerInParent="true"/>
 
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_below="@+id/tv_Selamat_datang"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
 
 </RelativeLayout>
