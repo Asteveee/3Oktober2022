@@ -10,21 +10,17 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     Button btnPindah;
+    EditText etNama;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        public class MainActivity extends AppCompatActivity {
-            Button btnPindah;
-            EditText etNama;
-        }
-
         getSupportActionBar().setTitle("Layout A");
 
         btnPindah = findViewById(R.id.btn_pindah);
-        etNama = findViewById((R.id.et_nama))
+        etNama = findViewById((R.id.et_nama));
         btnPindah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
